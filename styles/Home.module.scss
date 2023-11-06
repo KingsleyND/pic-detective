@@ -1,0 +1,137 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  max-width: 80rem;
+  min-height: 100vh;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+#__next{
+  background-color: rgb(145, 98, 145);
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 0;
+  
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.form {
+
+  [type="file"] {
+    display: none;
+    font-size: 1em;
+    padding: 1em;
+    border: solid 1px gray;
+    border-radius: .5em;
+    height: 160px;
+    width: 400px;
+  }
+
+  button {
+    color: white;
+    font-size: 1em;
+    background-color: blueviolet;
+    padding: .5em .8em;
+    border: none;
+    border-radius: .2em;
+  }
+
+  code {
+    text-align: left;
+  }
+
+  .customFileUpload{
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    height: 160px;
+    width: 400px;
+display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+// .footer {
+//   display: flex;
+//   flex: 1;
+//   padding: 2rem 0;
+//   border-top: 1px solid #eaeaea;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.uploadSection{
+  display: flex;
+  // position: absolute;
+  margin-right: 100px
+}
+
+.uploadIcon{
+  margin-bottom: 20px;
+}
+
+.detectiveIcon{
+  height: 100px;
+  width: 100px;
+}
+
+.searchBox{
+  width: 355px;
+  height: 35px;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+.searchButton{
+  
+  height: 35px;
+  width: 40px;
+  border-radius: 40px;
+  margin-left: 5px;
+  background-color: rgb(133, 178, 255);
+  border: 0;
+
+}
+
+.searchButton:hover{
+  background-color: rgb(0, 98, 255);
+}
+
+.searchDiv{
+  display: flex;
+}
+
+.imageSection{
+  width: 1000px;
+  height: 500px;
+  border: 3px dotted grey;
+  border-radius: 30px;
+}
+
+.imageSection h2{
+  margin-top: 20px;
+  color: grey;
+}
