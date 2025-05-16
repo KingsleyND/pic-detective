@@ -1,5 +1,5 @@
-########################Hello User!###################
-
+########################Hiiii User!!!!!###################
+ This is an image recognition and organizer
 To Start up this application you will need to run "npm run dev" while the project folder through your terminal
 
 To open online, go to: 
